@@ -120,6 +120,8 @@ a {
 }
 
 .google-apps:hover {
+    width: 16px;
+    height: 16px;
     background: url("../images/google-apps-hovered.png") no-repeat;
     background-position: center;
 }
@@ -172,7 +174,6 @@ input[type=text] {
 }
 
 .search-buttons {
-    display: flex;
     margin-top: 30px;
     justify-content: center;
 }
