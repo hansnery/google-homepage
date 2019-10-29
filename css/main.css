@@ -138,6 +138,19 @@ a {
     border: 1px solid #ddd;
     border-radius: 30px;
     outline: none;
+    justify-content: center;
+}
+
+.keyboard-icon {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 220px;
+}
+
+.mic-icon {
+    position: absolute;
+    margin-top: -64px;
+    margin-left: 260px;
 }
 
 input[type=text] {
@@ -146,18 +159,6 @@ input[type=text] {
     background-position: 15px 15px;
     background-repeat: no-repeat;
     padding-left: 40px;
-}
-
-.keyboard-icon {
-    position: absolute;
-    margin-top: 16px;
-    margin-left: 59%;
-}
-
-.mic-icon {
-    position: absolute;
-    margin-top: 12px;
-    margin-left: 61%;
 }
 
 .google-search:hover, .google-search:focus {
@@ -171,8 +172,9 @@ input[type=text] {
 }
 
 .search-buttons {
-    display: inline-block;
-    margin: 30px 770px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
 }
 
 .search-button, .lucky-button {
